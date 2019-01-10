@@ -1,6 +1,6 @@
 {
   "name": "unstated-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Persist your unstated container in local or session storage",
   "main": "dist/unstated-storage.js",
   "umd:main": "dist/unstated-storage.umd.js",
