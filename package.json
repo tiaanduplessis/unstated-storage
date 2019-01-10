@@ -1,0 +1,31 @@
+{
+  "name": "unstated-storage",
+  "version": "1.0.0",
+  "description": "Persist your unstated container in local or session storage",
+  "main": "dist/unstated-storage.js",
+  "umd:main": "dist/unstated-storage.umd.js",
+  "module": "dist/unstated-storage.mjs",
+  "source": "src/index.js",
+  "repository": "https://github.com/tiaanduplessis/unstated-storage",
+  "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "lint": "standard --fix src"
+  },
+  "dependencies": {
+    "set-immediate-shim": "^2.0.0"
+  },
+  "peerDependencies": {
+    "unstated": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "microbundle": "^0.9.0",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
