@@ -1,8 +1,8 @@
 import setImmediate from "set-immediate-shim";
-import unstated, { Container } from "unstated";
+import { Container } from "unstated";
 
 // https://gist.github.com/Contra/6368485
-var isStorageAvailable = function (storage) {
+const isStorageAvailable = function (storage) {
     if (typeof storage == 'undefined') return false;
     try { // hack for safari incognito
       storage.setItem("storage", "");
